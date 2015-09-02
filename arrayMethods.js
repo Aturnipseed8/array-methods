@@ -98,13 +98,29 @@ var favoriteFriends = friends.slice(1, 3);
 // owesMoney var friends = ['Todd', 'Jacoby', 'Miko', 'Joseph', 'Kevin', 'Todd C.'];
 
 
-var owesMoney = friends.slice(5);
+var owesMoney = friends.slice(3, 6);
 
+// 'monthNameString' result of called toString of monthNames
+// var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 
+var monthNameString = monthNames.toString();
 
+// 'favoriteColor' stores the endex of where the value 'Red' can be found in the colors array
+// var colors = ['Blue', 'Red', 'Yellow', 'Charlie'];
 
+var favoriteColor = colors.indexOf('Red');
 
+// favoriteEvenNumber index of where 76 is in mixedNums
+//var mixedNums = [5, 81, 40, 4, 805, 10, 76, 21, 3, 2, 7, 1, 7];
 
+var favoriteEvenNumber = mixedNums.indexOf(76);
+
+//lastNine stores the index of the number 5 in bulkNumbers array
+//var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
+
+var lastNine = bulkNumbers.lastIndexOf(9);
+
+var lastFive = bulkNumbers.lastIndexOf(5);
 
 
 
